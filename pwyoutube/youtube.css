@@ -1,0 +1,337 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", serif;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+.left{
+    width: 17vw;
+    height: 100vh;
+    padding: 10px 20px;
+}
+.right{
+    width: 83vw;
+    height: 100vh;
+    padding: 10px 0px;
+}
+.leftone{
+    width: 100%;
+    height: 25vh;
+    padding: 10px 20px;
+    border-bottom: .5px solid rgb(215, 211, 211);
+}
+.lefttwo{
+    width: 100%;
+    padding: 25px 20px 0px 20px;
+    border-bottom: .5px solid rgb(215, 211, 211);
+}
+.fa-bars{
+    font-size: 20px;
+    font-weight: 100;
+}
+.fa-youtube{
+    font-size: 28px;
+    color: red;
+}
+.lone{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 2vw;
+    margin-bottom: 30px;
+}
+.ltwo,.lthr,.lfou{
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 2vw;
+}
+.you{
+    display: none;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.fa-house{
+    font-size: 20px;
+}
+.para{
+    font-size: 16px;
+    font-weight: 500;
+}
+.shorts{
+    height: 20px;
+    width: 22px;
+}
+.shorts1{
+    height: 18px;
+    width: 18px;
+}
+.shorts2{
+    height: 16px;
+    width: 18px;
+}
+.shorts4{
+    height: 18px;
+    width: 18px;
+}
+.subs{
+    height: 20px;
+    width: 20px;
+}
+.suba{
+    height: 16px;
+    width: 16px;
+}
+.subsa{
+    height: 18px;
+    width: 18px;
+}
+.dp{
+    height: 35px;
+    width: 40px;
+    margin-right: .5vw;
+}
+.producer{
+    width: 93%;
+    display: flex;
+    justify-content: space-between;
+}
+.producer p{
+    font-weight: 500;
+}
+.producer1{
+    width: 73%;
+    margin-bottom: 20px;
+}
+.producer1 span, pre{
+    color: rgb(85, 84, 84);
+    font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.right{
+    width: 83vw;
+    height: 100vh;
+}
+nav{
+    width: 83vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px 10px 10vw;
+}
+.input{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 48vw;
+}
+input{
+    height: 40px;
+    width: 40vw;
+    border: none;
+    outline: none;
+    padding: 15px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top: 0.2px solid rgb(159, 157, 157);
+    border-left: 0.2px solid rgb(159, 157, 157);
+    border-bottom: 0.2px solid rgb(159, 157, 157);
+}
+.btn{
+    height: 40px;
+    width: 60px;
+    border: none;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border: 0.2px solid rgb(159, 157, 157);
+}
+.fa-magnifying-glass{
+    font-size: 17px;
+}
+::placeholder{
+    font-size: 17px;
+}
+.mc{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 20px;
+    background-color: rgb(242, 238, 238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.twoc{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 12vw;
+}
+.plus{
+    height: 35px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.7vw;
+    background-color: rgb(242, 238, 238);
+    border-radius: 20px;
+}
+.plus p{
+    color: rgb(30, 29, 29);
+    font-size: 14px;
+}
+.fa-plus{
+    font-size: 20px;
+}
+.user{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: rgb(228, 224, 224);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fa-user{
+    font-size: 17px;
+}
+.buttons{
+    width: 83vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0px;
+}
+.button{
+    padding: 3px 10px;
+    background-color: rgb(215, 212, 212);
+    color: rgb(12, 12, 12);
+    border-radius: 6px;
+    border: none;
+    font-size: 13px;
+    cursor: pointer;
+}
+.videos{
+    display: flex;
+    justify-content: center;
+    padding: 20px 0px;
+    align-self: center;
+    flex-wrap: wrap;
+}
+.one{
+    width: 26.6vw;
+    height: 42vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.two{
+    width: 26.6vw;
+    height: 42vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.three{
+    width: 26.6vw;
+    height: 42vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.four{
+    width: 26.6vw;
+    height: 42vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.five{
+    width: 26.6vw;
+    height: 42vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.six{
+    width: 26.6vw;
+    height: 42vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+img{
+    width: 25vw;
+    height: 28vh;
+    border-radius: 15px;
+}
+.rc{
+    width: 25vw;
+    height: 28vh;
+    border-radius: 15px;
+    background-size: cover;
+}
